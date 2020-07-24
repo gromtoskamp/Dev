@@ -1,0 +1,22 @@
+{
+  "name": "groskampweb/module-dev",
+  "description": "",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Groskampweb",
+      "email": "Tom.Groskamp@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Groskampweb\\Dev\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
